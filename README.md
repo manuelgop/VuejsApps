@@ -5,7 +5,7 @@ Repositorio el cual alberga todo lo realcionado con mi aprendizaje de VueJs.
 
 - 00 : Propiedades Methods y Computed 
 - 01 : Eventos y Metodos
-- 02
+- 02 : Renderizado de Listas
 
 
 #### Directorio del repositorio
