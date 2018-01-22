@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+    <div id="app">
+
+            <ul>
+                    <li v-for="numero in numeros">
+            
+                        {{numero}}
+                    </li>
+                </ul>
+    <ul>
+        <br>
+        <li v-for="(dato, key) in persona">
+
+            {{key}} - {{dato}}
+        </li>
+    </ul>
+
+    <br>
+
+    <ul>
+            <li v-for="dia in semana">
+    
+                {{dia.nombre}} - {{dia.numero}}
+            </li>
+        </ul>
+        <br>
+        <ul>
+                <li v-for="numeral in 50">
+        
+                    {{numeral}}
+                </li>
+            </ul>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
